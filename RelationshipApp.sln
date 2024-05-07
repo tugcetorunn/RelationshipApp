@@ -1,0 +1,88 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RelationshipApp.OneToOne.DefaultConvention", "RelationshipApp.OneToOne\RelationshipApp.OneToOne.DefaultConvention.csproj", "{87D58DDB-74E1-43DB-93B6-D981E2C734C0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RelationshipApp.OneToOne.DataAnnotation", "RelationshipApp.OneToOne.DataAnnotation\RelationshipApp.OneToOne.DataAnnotation.csproj", "{113E67CE-C2CB-4CDD-B254-C970B9CB1EC9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RelationshipApp.OneToOne.FluentApi", "RelationshipApp.OneToOne.FluentApi\RelationshipApp.OneToOne.FluentApi.csproj", "{9CCB2D44-8189-4E89-8B76-3558C4BF5D48}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OneToOne", "OneToOne", "{6865EF01-687F-4C41-AC5C-4E8FC9D939AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OneToMany", "OneToMany", "{72D588A7-1BC8-43DF-880C-B0A0D249FFD3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ManyToMany", "ManyToMany", "{95D01CAD-4CA7-4E34-AD17-2E0F9592DCE6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RelationshipApp.OneToMany.FluentApi", "RelationshipApp.OneToMany.FluentApi\RelationshipApp.OneToMany.FluentApi.csproj", "{A2D07DEC-58A1-4ABE-BB9C-CF4737F0DC0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RelationshipApp.OneToMany.DefaultConvention", "RelationshipApp.OneToMany.DefaultConvention\RelationshipApp.OneToMany.DefaultConvention.csproj", "{E462BD2E-0EFD-481B-8206-AEEE56C3B261}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RelationshipApp.OneToMany.DataAnnotation", "RelationshipApp.OneToMany.DataAnnotation\RelationshipApp.OneToMany.DataAnnotation.csproj", "{A22BDB57-56B6-42C2-A22E-BE43A2998E43}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1DC7F11A-6D2A-4E82-A9CF-B273AEC45E5C}"
+	ProjectSection(SolutionItems) = preProject
+		Packages.txt = Packages.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RelationshipApp.ManyToMany.DefaultConvention", "RelationshipApp.ManyToMany.DefaultConvention\RelationshipApp.ManyToMany.DefaultConvention.csproj", "{74319192-03E1-4346-8BD5-C5E83BA320D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RelationshipApp.ManyToMany.DataAnnotation", "RelationshipApp.ManyToMany.DataAnnotation\RelationshipApp.ManyToMany.DataAnnotation.csproj", "{8E30ECC4-755D-482E-9F27-352A799C3B2E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87D58DDB-74E1-43DB-93B6-D981E2C734C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87D58DDB-74E1-43DB-93B6-D981E2C734C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87D58DDB-74E1-43DB-93B6-D981E2C734C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87D58DDB-74E1-43DB-93B6-D981E2C734C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{113E67CE-C2CB-4CDD-B254-C970B9CB1EC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{113E67CE-C2CB-4CDD-B254-C970B9CB1EC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{113E67CE-C2CB-4CDD-B254-C970B9CB1EC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{113E67CE-C2CB-4CDD-B254-C970B9CB1EC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CCB2D44-8189-4E89-8B76-3558C4BF5D48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CCB2D44-8189-4E89-8B76-3558C4BF5D48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CCB2D44-8189-4E89-8B76-3558C4BF5D48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CCB2D44-8189-4E89-8B76-3558C4BF5D48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2D07DEC-58A1-4ABE-BB9C-CF4737F0DC0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2D07DEC-58A1-4ABE-BB9C-CF4737F0DC0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2D07DEC-58A1-4ABE-BB9C-CF4737F0DC0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2D07DEC-58A1-4ABE-BB9C-CF4737F0DC0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E462BD2E-0EFD-481B-8206-AEEE56C3B261}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E462BD2E-0EFD-481B-8206-AEEE56C3B261}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E462BD2E-0EFD-481B-8206-AEEE56C3B261}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E462BD2E-0EFD-481B-8206-AEEE56C3B261}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A22BDB57-56B6-42C2-A22E-BE43A2998E43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A22BDB57-56B6-42C2-A22E-BE43A2998E43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A22BDB57-56B6-42C2-A22E-BE43A2998E43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A22BDB57-56B6-42C2-A22E-BE43A2998E43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74319192-03E1-4346-8BD5-C5E83BA320D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74319192-03E1-4346-8BD5-C5E83BA320D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74319192-03E1-4346-8BD5-C5E83BA320D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74319192-03E1-4346-8BD5-C5E83BA320D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E30ECC4-755D-482E-9F27-352A799C3B2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E30ECC4-755D-482E-9F27-352A799C3B2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E30ECC4-755D-482E-9F27-352A799C3B2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E30ECC4-755D-482E-9F27-352A799C3B2E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{87D58DDB-74E1-43DB-93B6-D981E2C734C0} = {6865EF01-687F-4C41-AC5C-4E8FC9D939AF}
+		{113E67CE-C2CB-4CDD-B254-C970B9CB1EC9} = {6865EF01-687F-4C41-AC5C-4E8FC9D939AF}
+		{9CCB2D44-8189-4E89-8B76-3558C4BF5D48} = {6865EF01-687F-4C41-AC5C-4E8FC9D939AF}
+		{A2D07DEC-58A1-4ABE-BB9C-CF4737F0DC0F} = {72D588A7-1BC8-43DF-880C-B0A0D249FFD3}
+		{E462BD2E-0EFD-481B-8206-AEEE56C3B261} = {72D588A7-1BC8-43DF-880C-B0A0D249FFD3}
+		{A22BDB57-56B6-42C2-A22E-BE43A2998E43} = {72D588A7-1BC8-43DF-880C-B0A0D249FFD3}
+		{74319192-03E1-4346-8BD5-C5E83BA320D7} = {95D01CAD-4CA7-4E34-AD17-2E0F9592DCE6}
+		{8E30ECC4-755D-482E-9F27-352A799C3B2E} = {95D01CAD-4CA7-4E34-AD17-2E0F9592DCE6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A91CD4B5-1CC1-4CA2-A700-DD78EB95BC0A}
+	EndGlobalSection
+EndGlobal
